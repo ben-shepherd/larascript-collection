@@ -1,10 +1,10 @@
 {
-  "name": "PLACEHOLDER",
+  "name": "@ben-shepherd/larascript-collection-bundle",
   "version": "1.0.0",
-  "description": "PLACEHOLDER DESCRIPTION",
+  "description": "Collection manager for Larascript Framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ben-shepherd/PLACEHOLDER_REPOSITORY"
+    "url": "git+https://github.com/ben-shepherd/larascript-collection-bundle"
   },
   "license": "ISC",
   "author": "ben.shepherd@gmx.com",
@@ -54,5 +54,8 @@
   "validate-branch-name": {
     "pattern": "^(feat|fix|hotfix|release|test|experimental|refactor)/.+$",
     "errorMsg": "Branch name validation failed"
+  },
+  "dependencies": {
+    "collect.js": "^4.36.1"
   }
 }
