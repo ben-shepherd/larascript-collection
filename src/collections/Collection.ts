@@ -15,7 +15,7 @@ import ProxyCollectionHandler from "./ProxyCollectionHandler";
  *
  * @template T - Type of items in the collection
  */
-abstract class Collection<T = unknown> implements ICollection<T> {
+export abstract class Collection<T = unknown> implements ICollection<T> {
   /**
    * Array of items stored in the collection
    */

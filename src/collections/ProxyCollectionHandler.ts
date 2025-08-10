@@ -5,7 +5,7 @@
  * It also enables accessing methods on the collection by returning a bound
  * function to ensure the correct 'this' context.
  */
-class ProxyCollectionHandler {
+export class ProxyCollectionHandler {
   /**
    * Retrieves a property from the target collection. If the property is a numeric
    * string, it attempts to access the corresponding index in the collection items.
