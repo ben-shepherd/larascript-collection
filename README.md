@@ -42,7 +42,7 @@ This proxy functionality makes collections feel like native arrays while providi
 ## Installation
 
 ```bash
-npm install @ben-shepherd/larascript-collection-bundle
+npm install ben-shepherd/larascript-collection-bundle
 ```
 
 ## Quick Start
