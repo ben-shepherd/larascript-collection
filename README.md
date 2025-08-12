@@ -1,4 +1,4 @@
-# Larascript Collection Bundle
+# Larascript Collection
 
 A TypeScript collection library that provides a Laravel-inspired collection interface with **proxy support for direct array-like access**. Built on top of [collect.js](https://collect.js.org/) for powerful data manipulation capabilities.
 
