@@ -7,7 +7,7 @@ A TypeScript collection library that provides a Laravel-inspired collection inte
 The primary advantage of this package is its **proxy implementation**, which allows you to access collection items directly using numerical indexes, just like a regular array:
 
 ```typescript
-import { collect } from '@ben-shepherd/larascript-collection-bundle';
+import { collect } from '@ben-shepherd/larascript-collection';
 
 const users = collect([
   { id: 1, name: 'John' },
@@ -42,13 +42,13 @@ This proxy functionality makes collections feel like native arrays while providi
 ## Installation
 
 ```bash
-npm install ben-shepherd/larascript-collection-bundle
+npm install ben-shepherd/larascript-collection
 ```
 
 ## Quick Start
 
 ```typescript
-import { collect } from '@ben-shepherd/larascript-collection-bundle';
+import { collect } from '@ben-shepherd/larascript-collection';
 
 // Create a collection
 const numbers = collect([1, 2, 3, 4, 5]);

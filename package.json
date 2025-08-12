@@ -1,10 +1,10 @@
 {
-  "name": "@ben-shepherd/larascript-collection-bundle",
+  "name": "@ben-shepherd/larascript-collection",
   "version": "1.0.0",
-  "description": "Collection manager for Larascript Framework",
+  "description": "A TypeScript collection library with Laravel-inspired API and proxy-based array access, built on collect.js.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ben-shepherd/larascript-collection-bundle"
+    "url": "git+https://github.com/ben-shepherd/larascript-collection"
   },
   "license": "ISC",
   "author": "ben.shepherd@gmx.com",
